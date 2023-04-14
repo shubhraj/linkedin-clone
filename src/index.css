@@ -19,3 +19,7 @@ h1, h2, h3, h4, h5, h6, header, html, i, img, label, li, ul, nav, p, small, span
   vertical-align: baseline;
   background: transparent;
 } 
+
+body {
+  font-family: Arial, sans-serif;
+}
