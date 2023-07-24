@@ -1,0 +1,5 @@
+async function grabJsonData(selector){
+    return await I.executeScript(function (selector) {
+        return document.querySelector(selector).textContent;
+    }, selector);
+}
